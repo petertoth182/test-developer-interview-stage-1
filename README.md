@@ -11,19 +11,19 @@ Candidates are welcomed to use their own framework however clear instructions on
 # Solution
 I chose the pageobject model for writing the tests. I used IntelliJ on Windows and I only run the tests in Chrome with Chromedriver
 
-The two implemented solutions are tagged with @solution in search.feature file
-FYI: I think the given scenarios for coding were deprecated on Etsy.com, that is why I changed them a little bit.
+The two implemented solutions are tagged with @solution in search.feature file<br />
+FYI: I think the given scenarios for coding were deprecated on Etsy.com, that is why I changed them a little bit.<br />
 
-Not implemented scenarios tagged with @wip:
-api.feature file: 4 scenarios for testing REST API
-purchase.feature file: 1 scenario for testing purchasing an item
-account.feature fule: 3 scenarios for testing Etsy account
+Not implemented scenarios tagged with @wip:<br />
+api.feature file: 4 scenarios for testing REST API<br />
+purchase.feature file: 1 scenario for testing purchasing an item<br />
+account.feature fule: 3 scenarios for testing Etsy account<br />
 
 ## Running tests
 
 You need to set the path for Chromedriver in serenity.properties file:
-"webdriver.chrome.driver = c:/path"
-eg.: "webdriver.chrome.driver = c:/chromedriver.exe"
+"webdriver.chrome.driver = c:/path"<br />
+eg.: "webdriver.chrome.driver = c:/chromedriver.exe"<br />
 
 To run my scenarios tagged as 'solution' on Chrome:
 
