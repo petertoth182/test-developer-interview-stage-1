@@ -27,7 +27,7 @@ eg.: `webdriver.chrome.driver = c:/chromedriver.exe`<br />
 
 To run my scenarios tagged as 'solution' on Chrome:
 
-`$ gradle clean test aggregate -Dwebdriver.driver=chrome -Dcucumber.options="--tags @solution"`
+`$ gradle clean test aggregate -Dcucumber.options="--tags @solution"`
 
 ## Reporting
 
