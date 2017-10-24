@@ -9,15 +9,21 @@ The tasks are:
 Candidates are welcomed to use their own framework however clear instructions on how to use and run the tests should also be provided.
 
 # Solution
-I chose the pageobject model for writing the tests. I used IntelliJ on Windows and I only run the tests in Chrome with Chromedriver
+
+## UI tests
+I chose the pageobject model for writing the tests. I used IntelliJ on Windows and I only run the tests in Chrome with Chromedriver.
 
 The two implemented solutions are tagged with @solution in search.feature file<br />
 FYI: I think the given scenarios for coding were deprecated on Etsy.com, that is why I changed them a little bit.<br />
 
 Not implemented scenarios tagged with @wip:<br />
-api.feature file: 4 scenarios for testing REST API<br />
 purchase.feature file: 1 scenario for testing purchasing an item<br />
 account.feature fule: 3 scenarios for testing Etsy account<br />
+
+## API tests
+
+It can be found in api.feature file: 2 scenarios for testing REST API<br />
+The first scenarios is implemented using Serenity-Rest-Assured lib.<br />
 
 ## Running tests
 
