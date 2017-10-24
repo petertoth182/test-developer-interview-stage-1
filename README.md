@@ -22,12 +22,12 @@ account.feature fule: 3 scenarios for testing Etsy account<br />
 ## Running tests
 
 You need to set the path for Chromedriver in serenity.properties file:
-"webdriver.chrome.driver = c:/path"<br />
-eg.: "webdriver.chrome.driver = c:/chromedriver.exe"<br />
+`webdriver.chrome.driver = c:/path`<br />
+eg.: `webdriver.chrome.driver = c:/chromedriver.exe`<br />
 
 To run my scenarios tagged as 'solution' on Chrome:
 
-`$ gradle clean test aggregate -Dwebdriver.driver=chrome -Dcucumber.options="--tags @solution"`
+`$ gradle clean test aggregate -Dcucumber.options="--tags @solution"`
 
 ## Reporting
 
